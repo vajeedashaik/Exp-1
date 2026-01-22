@@ -1,137 +1,39 @@
-## Create-a-datacenter-with-one-host-and-run-one-cloudlet-on-it.
+# CloudSim Experiment 1: Basic Datacenter and Cloudlet Simulation
 
-
-## Experiment 
-
-
-# Create a Datacenter with One Host and Run One Cloudlet (CloudSim)
-
-This repository demonstrates a **basic CloudSim simulation** where a single datacenter with one host is created, and one cloudlet is executed on it. The project is intended for **cloud computing laboratory experiments** and beginner-level understanding of CloudSim architecture.
+This experiment demonstrates a basic CloudSim simulation where a single datacenter hosts one virtual machine (VM) that executes a single cloudlet. It is intended as an introductory example to understand CloudSim concepts such as datacenters, brokers, VMs, and cloudlets.
 
 ---
 
-## Aim
+## 📌 Experiment Objective
 
-To create a simple cloud computing environment using CloudSim by configuring one datacenter with a single host and executing one cloudlet, and to observe the simulation results.
-
-
-
-## Objectives
-
-* Understand the working of the CloudSim toolkit
-* Learn how to create a datacenter and host in CloudSim
-* Execute a single cloudlet on a virtual machine
-* Analyze cloudlet execution output
+- Create a datacenter with one host
+- Deploy a single virtual machine (VM)
+- Submit one cloudlet for execution
+- Run the CloudSim simulation
+- Display cloudlet execution results
 
 ---
 
-##  Software Requirements
+## 🛠 Dependencies Required
 
-* Operating System: Windows / Linux / macOS
-* Java Development Kit (JDK): 8 or above
-* IDE: Eclipse / IntelliJ IDEA / NetBeans
-* CloudSim Toolkit: Version 3.x
+To run this experiment, you need the following:
 
----
-
-##  Hardware Requirements
-
-* Processor: Intel i3 or higher
-* RAM: Minimum 4 GB
-* Storage: At least 10 GB free disk space
+- **Java JDK** (Java 8 or above recommended)
+- **CloudSim Toolkit** (version compatible with your code, e.g., CloudSim 3.x / CloudSim Plus as applicable)
+- **Apache Maven** (optional, if managing dependencies via Maven)
+- Any Java IDE (IntelliJ IDEA / Eclipse / VS Code)
 
 ---
 
-## Project Structure
+## ▶️ How to Run
 
-```
-Create-a-datacenter-with-one-host-and-run-one-cloudlet-on-it/
-│
-├── src/
-│   └── DatacenterSingleHostSingleCloudlet.java
-├── lib/
-│   └── cloudsim-3.x.jar
-├── output/
-│   └── simulation_output.png
-├── README.md
-```
+1. Import the CloudSim library into your project  
+2. Compile and run the `CloudSimExample1.java` file  
+3. Observe the simulation logs and output in the console  
 
 ---
 
+## 📷 Output Screenshot
+<img width="716" height="314" alt="image" src="https://github.com/user-attachments/assets/ea5216a8-958f-4b5c-855f-fa5bdfd39e02" />
 
-
-##  Steps to Run the Project
-
-1. Install Java JDK (8 or above).
-2. Download and configure the CloudSim library.
-3. Import the project into your IDE.
-4. Add CloudSim JAR files to the project build path.
-5. Compile and run the Java program.
-6. Observe the cloudlet execution results in the console.
-
----
-
-##  Simulation Workflow
-
-1. Initialize CloudSim
-2. Create a Datacenter with one Host
-3. Create a Broker
-4. Create one Virtual Machine (VM)
-5. Create one Cloudlet
-6. Bind the Cloudlet to the VM
-7. Start Simulation
-8. Display Results
-
----
-## Program
-
-
-
-
-
-
-
-
-
-
-##  Output
-
-The simulation displays:
-
-* Cloudlet ID
-* Execution status
-* Datacenter ID
-* VM ID
-* Start time
-* Finish time
-
- 
-
-##  Output Screenshot
-
-Add the console output screenshot in the `output/` folder and name it as `simulation_output.png`.
-
----
-
-##  Applications
-
-* Cloud Computing Laboratory Experiments
-* Learning CloudSim Basics
-* Academic Demonstrations
-
----
-
-##  Conclusion
-
-This project successfully demonstrates the creation of a simple cloud environment using CloudSim, where a single cloudlet is executed on one host. It provides a strong foundation for understanding more complex cloud simulations.
-
----
-
- 
-
----
-
-##  License
-
-This project is intended for educational and academic use only.
 
